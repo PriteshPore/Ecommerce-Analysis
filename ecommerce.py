@@ -9,7 +9,7 @@ def main():
 
     # Upload File section
 
-    uploaded_file = st.sidebar.file_uploader("Upload a csv or Excel File",type=['csv'])
+    uploaded_file = st.sidebar.file_uploader("Upload a csv or Excel File",type=['csv','xlsx'])
 
     if uploaded_file is not None:
         try:
